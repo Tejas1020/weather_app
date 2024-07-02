@@ -1,16 +1,32 @@
-# weather_app
+# Flutter Weather App
 
-A new Flutter project.
+A simple weather app built with Flutter that displays current weather information for a given city using the OpenWeatherMap API. The app includes Lottie animations that represent the current weather conditions.
+
+## Features
+
+- Search for a city's weather.
+- Display current temperature, weather condition, humidity percentage, and wind speed.
+- Refresh button to update weather information.
+- Lottie animations for different weather conditions.
+
+## Screenshots
+
+#### Home Screen
+<img src="img2.jpg" alt="App Screenshot" width="300"/>
+
+#### Weather Details Screen
+<img src="img1.jpg" alt="App Screenshot" width="300"/>
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- [Flutter](https://flutter.dev/docs/get-started/install) should be installed on your local machine.
+- An API key from [OpenWeatherMap](https://openweathermap.org/).
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/weather_app.git
+   cd weather_app
